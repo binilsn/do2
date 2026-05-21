@@ -1,9 +1,9 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import App from "../App";
 import Container from "../components/Container";
 import AppForm from "../components/AppForm";
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
 	{
 		path: "/",
 		Component: Container,
